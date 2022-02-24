@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" width={300} />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello <strong>There!</strong>
         </p>
         <a
           className="App-link"
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Open Youtube
+          Open MyApp
         </a>
       </header>
     </div>
